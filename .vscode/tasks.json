@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Oceanic Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Debug",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Debug",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Oceanic Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Debug",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Oceanic Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Development",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Development",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Oceanic Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Development",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Test",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Test",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Oceanic Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Test",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Oceanic Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "Oceanic Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Oceanic",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanicEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanicEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanicEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		},
+		{
+			"label": "OceanicEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"OceanicEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Oceanic.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\GAMES\\Epic\\UE_5.1"
+			}
+		}
+	]
+}

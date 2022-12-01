@@ -1,0 +1,42 @@
+[
+	{
+		"file": "C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Source\\Oceanic\\Oceanic.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\.vscode\\compileCommands_Oceanic\\Oceanic.255.rsp"
+		],
+		"directory": "E:\\GAMES\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Source\\Oceanic\\Oceanic.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\.vscode\\compileCommands_Oceanic\\Oceanic.255.rsp"
+		],
+		"directory": "E:\\GAMES\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Source\\Oceanic\\Oceanic.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\.vscode\\compileCommands_Oceanic\\Oceanic.255.rsp"
+		],
+		"directory": "E:\\GAMES\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Source\\Oceanic\\OceanicGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\.vscode\\compileCommands_Oceanic\\Oceanic.255.rsp"
+		],
+		"directory": "E:\\GAMES\\Epic\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\Source\\Oceanic\\OceanicGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\Documents\\Unreal Projects\\Oceanic\\.vscode\\compileCommands_Oceanic\\Oceanic.255.rsp"
+		],
+		"directory": "E:\\GAMES\\Epic\\UE_5.1\\Engine\\Source"
+	}
+]
